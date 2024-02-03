@@ -1,0 +1,17 @@
+#navbar {
+    display: inline-block;
+}
+
+#name {
+    font-size: 4vh;
+    font-weight: 600;
+    letter-spacing: 15px;
+
+    transition: 0.6s;
+}
+
+#name:hover {
+    color: gray;
+    transition: 0.6s;
+}
+
