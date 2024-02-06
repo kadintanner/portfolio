@@ -4,7 +4,7 @@ import ProjectsButton from '../../Components/CloseButton';
 const Coding = () => {
   return (
     <div>
-        <h2>Coding Section</h2>
+        <h2>Project 1</h2>
 
         <ProjectsButton />
     </div>

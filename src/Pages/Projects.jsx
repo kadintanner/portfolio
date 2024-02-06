@@ -1,30 +1,28 @@
-import React from 'react';
-import BackButton from '../Components/BackButton';
-import "../Styles/projects.css"
+import React from "react";
+import { Link } from "react-router-dom"
+import BackButton from "../Components/BackButton";
+import "../Styles/projects.css";
 
 const Projects = () => {
   return (
     <>
-    {/* <BackButton /> */}
-    
-    <div id="project_container">
-      
-    <div id="preview_box">
-      <p>Preview Box</p>
-    </div>
+      {/* <BackButton /> */}
 
-    <div id="link_box">
-      <a href="/Project1">BLOG&nbsp;WEBSITE</a>
-      <a href="/Project2">MOTION&nbsp;GRAPHICS</a>
-      <a href="/Project3">INTERIOR&nbsp;DESIGN</a>
-    </div>
-    
-    </div>
+      <div id="project_container">
+        <Link id="project_1" to="/Project1">
+          BLOG&nbsp;WEBSITE
+        </Link>
+        <Link id="project_2" to="/Project2">
+          MOTION&nbsp;GRAPHICS
+        </Link>
+        <Link id="project_3" to="/Project3">
+          INTERIOR&nbsp;DESIGN
+        </Link>
+
+        <div id="preview_box">(PREVIEW)</div>
+      </div>
     </>
-
-    
   );
-}
+};
 
 export default Projects;
-

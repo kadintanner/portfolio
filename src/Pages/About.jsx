@@ -6,9 +6,7 @@ const About = () => {
 
   return (
     <>
-    <div id="a">hover</div>
-    <div>Box</div>
-    <div id="b">Box</div>
+    <h1>ABOUT</h1>
     </>
   );
 };
