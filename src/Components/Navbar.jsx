@@ -4,10 +4,12 @@ import "../Styles/navbar.css";
 const Navbar = () => {
   return (
     <div id="navbar">
-      
+
       <a id="name" href="/">
         KADIN TANNER
       </a>
+
+      {/* <div id="navbar_spacer" /> */}
 
       <a className="link" href="/About">
         About

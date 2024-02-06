@@ -5,10 +5,10 @@ import "../Styles/projects.css"
 const Projects = () => {
   return (
     <>
-    <BackButton />
+    {/* <BackButton /> */}
     
     <div id="project_container">
-
+      
     <div id="preview_box">
       <p>Preview Box</p>
     </div>
@@ -18,7 +18,7 @@ const Projects = () => {
       <a href="/Project2">MOTION&nbsp;GRAPHICS</a>
       <a href="/Project3">INTERIOR&nbsp;DESIGN</a>
     </div>
-
+    
     </div>
     </>
 
@@ -27,3 +27,4 @@ const Projects = () => {
 }
 
 export default Projects;
+

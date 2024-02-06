@@ -4,7 +4,7 @@ import "../Styles/backButton.css"
 const BackButton = () => {
   return (
     <>
-    <a id="backButton" href="/">&lt;--</a>
+    <a id="backButton" href="/">BACK</a>
     </>
   );
 }

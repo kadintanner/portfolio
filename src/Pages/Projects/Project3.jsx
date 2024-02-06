@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectsButton from '../../Components/ProjectsButton';
+import ProjectsButton from '../../Components/CloseButton';
 
 const Design = () => {
   return (

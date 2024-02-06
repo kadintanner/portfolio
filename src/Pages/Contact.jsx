@@ -1,12 +1,13 @@
 import React from "react";
 import BackButton from "../Components/BackButton";
+import "../Styles/contact.css"
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact_container">
       <h2>Contact Page</h2>
 
-      <BackButton />
+      {/* <BackButton /> */}
     </div>
   );
 };

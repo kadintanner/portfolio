@@ -20,7 +20,6 @@
 }
 
 #link_box {
-    display: block;
 
     width: 100px;
     height: 100px;
@@ -43,3 +42,8 @@
     opacity: 1;
     transition: 0.6s;
 }
+
+#link_box a:hover ~ #preview_box {
+    background-color: #ff0000; 
+  }
+  

@@ -1,17 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import BackButton from "../Components/BackButton";
-// import "../Styles/about.css"
+import "../Styles/about.css";
 
 const About = () => {
+
   return (
-    <div>
-
-      <h2>About Page</h2>
-
-      <BackButton />
-
-    </div>
+    <>
+    <div id="a">hover</div>
+    <div>Box</div>
+    <div id="b">Box</div>
+    </>
   );
 };
 
 export default About;
+
+
