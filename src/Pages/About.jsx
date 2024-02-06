@@ -6,7 +6,7 @@ const About = () => {
 
   return (
     <>
-    <h1>ABOUT</h1>
+    <div id="about_container">ABOUT</div>
     </>
   );
 };

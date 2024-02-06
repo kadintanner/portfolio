@@ -4,13 +4,15 @@ import "../Styles/home.css"
 const Home = () => {
   return (
     <>
-    <div id="header">
-      PORTFOLIO
-    </div>
-
-    {/* <div id="footer">
+    {/* <div id="header">
       PORTFOLIO
     </div> */}
+
+    <div>User Experience Designer</div>
+
+    <div id="footer">
+      PORTFOLIO
+    </div>
     </>
   );
 }

@@ -1,14 +1,14 @@
 import React from 'react';
-import ProjectsButton from '../../Components/CloseButton';
+import CloseButton from '../../Components/CloseButton';
+import "../../Styles/project1.css"
 
-const Coding = () => {
+const Project1 = () => {
   return (
-    <div>
-        <h2>Project 1</h2>
-
-        <ProjectsButton />
+    <div className="project1-container">
+      <h2>Project 1</h2>
+      <CloseButton />
     </div>
   );
 }
 
-export default Coding;
+export default Project1;
