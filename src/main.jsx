@@ -9,27 +9,23 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import About from "./Pages/About.jsx";
-import Coding from "./Pages/Projects/Coding.jsx";
 import Contact from "./Pages/Contact.jsx";
-import Design from "./Pages/Projects/Design.jsx";
 import Home from "./Pages/Home.jsx";
-import Music from "./Pages/Projects/Music.jsx";
-import Photography from "./Pages/Projects/Photography.jsx";
 import Projects from "./Pages/Projects.jsx";
-import Videography from "./Pages/Projects/Videography.jsx";
+import Project1 from "./Pages/Projects/Project1.jsx";
+import Project2 from "./Pages/Projects/Project2.jsx";
+import Project3 from "./Pages/Projects/Project3.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Home />} />
       <Route path="About" element={<About />} />
-      <Route path="Coding" element={<Coding />} />
       <Route path="Contact" element={<Contact />} />
-      <Route path="Design" element={<Design />} />
-      <Route path="Music" element={<Music />} />
-      <Route path="Photography" element={<Photography />} />
       <Route path="Projects" element={<Projects />} />
-      <Route path="Videography" element={<Videography />} />
+      <Route path="Project1" element={<Project1 />} />
+      <Route path="Project2" element={<Project2/>} />
+      <Route path="Project3" element={<Project3 />} />
     </Route>
   )
 );

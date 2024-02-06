@@ -1,0 +1,45 @@
+#project_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    margin-left: 5rem
+}
+
+#preview_box {
+    background-color: rgb(230, 154, 56);
+
+    width: 30vw;
+    height: 17vw;
+
+    margin: auto;
+    margin-right: 5rem;
+
+    text-align: center;
+    color: white;
+}
+
+#link_box {
+    display: block;
+
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+#link_box a {
+    font-size: 6vw;
+    font-weight: 700;
+
+    opacity: 0.3;
+    transition: 0.6s;
+}
+
+#link_box a:hover {
+    opacity: 1;
+    transition: 0.6s;
+}

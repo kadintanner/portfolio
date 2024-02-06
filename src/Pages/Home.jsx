@@ -3,9 +3,15 @@ import "../Styles/home.css"
 
 const Home = () => {
   return (
+    <>
     <div id="header">
       PORTFOLIO
     </div>
+
+    {/* <div id="footer">
+      PORTFOLIO
+    </div> */}
+    </>
   );
 }
 

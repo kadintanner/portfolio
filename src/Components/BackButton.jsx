@@ -1,10 +1,10 @@
 import React from 'react';
-// import "../Styles/backButton.css"
+import "../Styles/backButton.css"
 
 const BackButton = () => {
   return (
     <>
-    <a href="/">x</a>
+    <a id="backButton" href="/">&lt;--</a>
     </>
   );
 }
