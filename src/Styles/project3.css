@@ -1,0 +1,27 @@
+#project_3:focus ~ #hidden_div3 {
+    display: block;
+  
+    transition: 0.6s;
+  }
+  
+  #hidden_div3 {
+    display: none;
+    background-color: rgb(255, 207, 214);
+    z-index: 1;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    /* background-size: cover; */
+    animation: slide 0.8s forwards;
+  
+    transition: 0.6s;
+  }
+  
+  @keyframes slide {
+      from {
+          transform: translateY(100%);
+        }
+        to {
+          transform: translateY(0);
+        }
+  }

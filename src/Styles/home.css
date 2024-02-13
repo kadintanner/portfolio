@@ -20,6 +20,19 @@
     animation-fill-mode: forwards;
 }
 
+#intro {
+    margin-top: 40rem;
+    font-size: 4rem;
+    font-weight: 500;
+    /* letter-spacing: -2vw; */
+}
+
+#intro_subheader {
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
 #footer {
     padding: 0px;
     text-align: center;

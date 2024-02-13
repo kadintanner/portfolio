@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     margin: 3rem;
+    position: fixed;
+    z-index: 2;
 }
 
 #name {
@@ -11,9 +13,9 @@
     transition: 0.6s;
 
     position: absolute;
-    left: 5vw;
-    /* margin-left: 4rem;
-    margin-right: 2rem; */
+    /* left: -5vw; */
+    margin-left: 0rem;
+    /* margin-right: 2rem; */
 }
 
 #name:hover {
@@ -23,7 +25,7 @@
 
 #link_container {
     position: absolute;
-    right: 10vw
+    left: 20rem
 }
 
 .link {
@@ -31,18 +33,21 @@
     font-size: 1vw;
     font-weight: 500;
     text-decoration: underline;
-    text-underline-offset: .4em;
+    text-underline-offset: 0.8em;
     transition: 0.6s;
     background-position: bottom left;
     background-size: 2px;
     opacity: 1;
     text-decoration-color: transparent;
+    text-decoration-thickness: .5vh;
 }
 
 .link:hover {
     font-size: 0.99vw;
     text-decoration: underline;
-    text-underline-offset: .1em;
+    text-underline-offset: .3em;
     transition: 0.6s;
-    opacity: 0.3;
+    opacity: 0.5;
+    text-decoration-thickness: .5vh;
+
 }

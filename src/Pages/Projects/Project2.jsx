@@ -1,12 +1,14 @@
 import React from 'react';
-import ProjectsButton from '../../Components/CloseButton';
+import CloseButton from '../../Components/CloseButton';
+import "../../Styles/project2.css"
 
 const Music = () => {
   return (
     <div>
-      <h2>Music Section</h2>
+      <h2>Project 2</h2>
+      <CloseButton />
 
-      <ProjectsButton />
+      <a>Return to Begining</a>
     </div>
   );
 }

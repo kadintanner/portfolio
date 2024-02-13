@@ -4,7 +4,7 @@ import "../Styles/closeButton.css"
 const CloseButton = () => {
   return (
     <div>
-      <a id="closeButton" href="/Projects">x</a>
+      <a id="closeButton" href="/About">CLOSE</a>
     </div>
   );
 };

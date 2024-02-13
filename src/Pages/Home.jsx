@@ -1,18 +1,38 @@
 import React from 'react';
 import "../Styles/home.css"
+import Projects from "./Projects.jsx"
 
 const Home = () => {
   return (
     <>
-    {/* <div id="header">
+    <div id="header">
+      PORTFOLIO
+    </div>
+
+    <div id="intro">User Experience Designer</div>
+    <br />
+    <div id="intro_subheader">Dedicated to creating visually appealing and enjoyable digital experiences for people.</div>
+
+    {/* <div id="footer">
       PORTFOLIO
     </div> */}
 
-    <div>User Experience Designer</div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
-    <div id="footer">
-      PORTFOLIO
-    </div>
+    <Projects />
+
     </>
   );
 }

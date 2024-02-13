@@ -14,10 +14,10 @@ const Navbar = () => {
         <a className="link" href="/About">
           About
         </a>
-        <a className="link" href="/Projects">
+        <a className="link" href="/#preview_box">
           Projects
         </a>
-        <a className="link" href="/Contact">
+        <a className="link" href="https://drive.google.com/file/d/1JdOTUU2404NAMyGAvP4fLrpOTG1tBcpc/view?usp=sharing">
           Resume
         </a>
       </div>

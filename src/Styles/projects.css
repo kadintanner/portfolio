@@ -1,10 +1,12 @@
 #project_container {
   display: flex;
-  justify-content: space-between;
   height: 70vh; /* this adjusts vertical height */
-  margin-left: 32vw;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin: 0;
+  margin-top: 8rem;
 }
 
 #preview_box {
@@ -15,20 +17,6 @@
   color: white;
   font-size: 2vw;
   transition: 0.6s;
-  position: absolute;
-  left: 4rem;
-}
-#preview1 {
-    display: none;
-    z-index: -1;
-}
-#preview2 {
-    display: none;
-    z-index: -1;
-}
-#preview3 {
-    display: none;
-    z-index: -1;
 }
 
 #project_1,
@@ -66,12 +54,4 @@
   transition: background-color 0.6s; 
 }
 
-/* 
-@keyframes slideLeft {
-    from {
-      transform: translateX(100%);
-    }
-    to {
-      transform: translateX(0);
-    }
-  } */
+
