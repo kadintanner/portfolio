@@ -6,7 +6,8 @@
   text-align: center;
 
   margin: 0;
-  margin-top: 8rem;
+  margin-top: 12rem;
+  margin-bottom: 0;
 }
 
 #preview_box {
@@ -17,6 +18,9 @@
   color: white;
   font-size: 2vw;
   transition: 0.6s;
+
+  position: absolute;
+  top: 55rem;
 }
 
 #project_1,

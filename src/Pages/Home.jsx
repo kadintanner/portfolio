@@ -11,7 +11,8 @@ const Home = () => {
 
     <div id="intro">User Experience Designer</div>
     <br />
-    <div id="intro_subheader">Dedicated to creating visually appealing and enjoyable digital experiences for people.</div>
+    <div id="intro_subheader">Dedicated to creating visually stunning and enjoyable digital 
+    experiences for all people.</div>
 
     {/* <div id="footer">
       PORTFOLIO
